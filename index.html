@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <input type="text" id="buscar" placeholder="buscar por nombre....">
+    <header class="addFood">
+        <input type="search" id="buscador" class="bus" placeholder="Buscar">
+
+        <select class="se" name="" id="status">
+          <option value="">Todos los estados</option>
+          <option value="dead">DEAD</option>
+          <option value="unknown">UNKNOWN</option>
+          <option value="alive">ALIVE</option>
+        </select>
+  
+        <!-- Para filtros y navegacion -->
+      
     </header>
 
-    <main class="comida-container" id="main">
+    <main class="comida-container" id="messi">
         <!-- Contenido Dinamico -->
-    </main>  
+    </main> 
+    
+    <script src="main.js"></script>
+
 </body>
 </html>

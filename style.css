@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+/*.he{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+
+  .bus{
+    width: 360px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px, solid, grey;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    
+  }
+
+  .se{
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px, solid, grey;
+    font-family: "Boldonse", system-ui;
+    font-size: 11px;
+    font-weight: 200px;
+
+    
+  }
+}*/
+
+.comida-container {
+  display: grid;
+  grid-template-columns:repeat(4, 1fr); 
+  gap: 33px;
+  .card{
+    width: 300px;
+    height: 300px;
+    border: 3px, solid#d9d9d9;
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+    
+    h2{
+      font-family: "Boldonse", system-ui;
+      font-weight: 400;
+      font-size: 16px; 
+      position: relative;
+      left: 20px;
+      top:10px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        border: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .estado{
+      font-family: "Montserrat", sans-serif;
+      font-weight:bold; 
+      position: relative;
+      left: 20px;
+      top: 15px;
+      font-size: 15px;
+       
+    }
+    .categoria{
+      font-family: "Montserrat", sans-serif;
+      position: relative;
+      font-weight: 600;
+      left: 10px;
+      top: 20px;
+      font-size: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+   
+    
+
+  }
+}
+
+.addFood{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap:50px;
+      
+    
+    .bus{
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+      background-color: white;
+      border: 3px, black;
+      font-family: "Boldonse", system-ui;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .se{
+        width: 170px;
+        height: 30px;
+        border-radius: 10px;
+        border: 2px, solid, grey;
+        font-family: "Boldonse", system-ui;
+        font-size: 11px;
+        font-weight: 200px;
+    
+        
+      }
+}
