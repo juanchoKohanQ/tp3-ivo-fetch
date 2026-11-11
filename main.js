@@ -1,3 +1,4 @@
+
 fetch('https://rickandmortyapi.com/api/character')
     .then(response =>response.json())
     .then(data =>{
@@ -10,14 +11,15 @@ fetch('https://rickandmortyapi.com/api/character')
       });
 
      let personajes =[];
+
+    
      
     const container = document.getElementById("messi")
 
     function mostrarPersonajes(lista = personajes){
 
-        container.innerHTML = ""; 
-  
-        
+        container.innerHTML = "";   
+
      lista.forEach(personaje => {
         container.innerHTML += 
         `
@@ -52,5 +54,5 @@ const personajeFiltrado = personajes.filter(personaje => {
 mostrarPersonajes(personajeFiltrado)
 }
 
-estado.addEventListener("change", filtrar)
 buscador.addEventListener("input", buscar) 
+estado.addEventListener("change", filtrar)
